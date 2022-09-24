@@ -1,0 +1,306 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-size: 20px;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+
+}
+button{
+    font-size: 90%;
+    letter-spacing: 1px;
+    text-transform: capitalize;
+    border: none;
+    font-size: 80%;
+    padding: 10px;
+}
+
+h1{
+    padding: 10px;
+    font-size: 150%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+}
+h2{
+    padding: 10px;
+    font-size: 125%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+}
+h3{
+    padding: 10px;
+    font-size: 100%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+}
+h5{
+    font-size: 70%;
+    padding: 15px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: uppercase;
+}
+p{
+    padding: 10px;
+    font-size: 80%;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 16px;
+    
+}
+
+.logo{
+    
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+.logo a{
+    color: #000000;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all .2s;
+}
+
+.logo a:hover{
+    color: red;
+}
+nav ul{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    list-style: none;
+    padding: 10px;
+}
+nav ul li{
+    margin-left: 15px;
+}
+nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 15px;
+    color: #000000;
+    border-radius: 5px;
+    text-transform: uppercase;
+    transition: all .2s;
+}
+
+nav ul li a:hover{
+    background-color: #d0d2d4;
+}
+nav ul li .active{
+    color: #ff0000;
+}
+
+nav ul li i{
+    margin-top: 15x;
+}
+.icons{
+    padding: 10px;
+}
+.icons i{
+    font-size: 30px;
+    margin-left: 10px;
+    transition: color .2s;
+}
+
+.icons i:hover{
+    color: red;
+}
+
+.hero-contain{
+    width: 100%;
+    height: 86vh;
+}
+.hero{
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100);
+    filter:drop-shadow(100);
+    overflow: hidden;
+}
+
+.row-space-around{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.row-center{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.row-stretch{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.col-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.space{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.w50{
+    width: 50%;
+}
+.w40{
+    width: 40%;
+}
+.w30{
+    width: 30%;
+}
+.w20{
+    width: 20%;
+}
+
+
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.card img{
+    width: 100%;
+    transition: transform .2s;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+.card h6{
+    margin-top: 10px;
+    color: #8a8a8a;
+    font-size: 75%;
+}
+.card p{
+    margin-top: 10px;
+    font-size: 75%;
+    text-transform: uppercase;
+}
+.card span{
+    margin-top: 10px;
+    font-size: 70%;
+    color: #ff0000;
+}
+.card a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.card a button{
+    height: 35px;
+    width: 100%;
+    font-size: 75%;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+}
+
+
+.dot-width{
+    width: 100%;
+    justify-content: center;
+}
+
+.dots{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #b4b3b3;
+    margin-left: 5px;
+}
+.dot-active{
+    background-color: red;
+}
+.background-top{
+    background-image: url(../resources/css/img/upbackground.jpg);
+    background-size: cover;
+}
+.background-down{
+    background-image: url(../resources/css/img/downbackground.jpg);
+    background-size: cover;
+}
+
+
+
+footer{
+    margin-top: 80px;
+    padding: 20px 0;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer .row-stretch .content{
+    width: 20%;
+}
+footer .form{
+    width: 60%;
+    padding-top: 65px;
+}
+.form-input{
+    width: 80%;
+    background-color: #1a1a1a;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-size: 70%;
+    padding: 10px;
+}
+.form button{
+    background-color: red;
+    color: white;
+    padding: 10px;
+    font-size: 70%;
+}
+.row span{
+    font-size: 75%;
+    width: 33%;
+}
+.red{
+    color: red;
+}
+
+.row .cont{
+    width: 30%;
+    padding-top: 30px;
+}
+.information{
+    width: 50%;
+}
+

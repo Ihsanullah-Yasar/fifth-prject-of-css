@@ -1,0 +1,156 @@
+
+.hero-contain{
+    height: 50vh;
+}
+.hero{
+    background-image:  url(../../resources/css/img/latest1.PNG);
+}
+
+.hero-content{
+    padding: 40px;
+}
+.hero-content p{
+    color: #fff;
+    font-size: 75%;
+}
+.hero-content h1{
+    color: #fff;
+    font-size: 150%;
+}
+
+.more{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 90%;
+}
+.fixed{
+    
+    width: 80%;
+    margin: 20px 0 20px -100px;
+}
+
+.row-space-between{
+    display: flex;
+    justify-content: space-between;
+}
+.row-space-between img{
+    width: 45%;
+}
+
+.col{
+    width: 40%;
+}
+.card{
+    width: 45%;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+.card p{
+    padding-left: 0;
+}
+
+.card h6{
+    margin-top: 0;
+}
+.box{
+    flex-wrap: wrap;
+    
+}
+.sizes{
+    padding: 10px;
+    border: 1px solid  #ff6600;
+}
+.card .descrip{
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+.card a .cart{
+    background-color: #b9b9b9;
+    color: white;
+    font-size: 70%;
+
+}
+.card a .wishList{
+    background-color: #fff;
+    color: #000;
+    border: 1px solid #ff6600;
+    font-size: 70%;
+}
+
+.selection{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ff6600;
+    font-size: 16px;
+    padding: 5px;
+}
+.review{
+    margin-top: 10px;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid #ff6600;
+    font-size: 16px;
+    padding: 5px;
+}
+.idea{
+    height: 150px;
+    background-color: #b9b9b9;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 0
+}
+.idea h6{
+    background-color: #000;
+    color: #fff;
+    display: inline-block;
+    padding: 5px;
+}
+.idea p{
+    font-size: 60%;
+    padding: 20px;
+}
+.title{
+    margin-top: 80px;
+    margin-left: 85px;
+}
+
+
+/* maain seciton */
+
+.shopping{
+    padding: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
+.default{
+    float: right;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #ff6600;
+    font-size: 70%;
+    width: 15%;
+    padding: 5px;
+}
+
+.sort-button{
+    font-size: 80%;
+}
+.shopping span{
+    font-size: 80%;
+}
+.card h6 , p , span , a{
+    margin: auto;
+}
+
+.shopping-read-more{
+    width: 300%;
+    transition: background-color .2s, color .2s;
+    
+}
+
+.shopping-read-more:hover{
+    background-color: #000;
+    color: white;
+}

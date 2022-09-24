@@ -1,0 +1,329 @@
+
+.hero-contain{
+    width: 100%;
+    height: 86vh;
+}
+.hero{
+    background-image:  url(img/hero1.png);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    filter: grayscale(100);
+    filter:drop-shadow(100);
+    overflow: hidden;
+}
+
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    width: 100%;
+    margin-top: 50px;
+}
+.hero-content{
+    color: #fff;
+    width: 30%;
+    padding-top: 40px;
+    
+}
+.hero-content h1{
+    padding: 10px;
+    font-size: 35px;
+    font-style: italic;
+    letter-spacing: 1px;
+}
+.hero-content p{
+    font-size: 15px;
+    padding: 10px;
+    font-style: italic;
+}
+
+.hero-content .button{
+    padding: 10px;
+    
+}
+.hero-content .button button{
+    border-radius: 5px;
+    border: none;
+    background-color: #d0d2d4;
+    padding: 4px 12px 4px 12px;
+    transition: background-color .2s ,transform .2s;
+
+}
+.hero-content .button button:hover{
+    background-color: #fff;
+    transform: scale(1.2);
+}
+.hero-content .button a{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+}
+
+.hero-image{
+    width: 10%;
+    height: 100%;
+}
+.hero-image img{
+    width: 100%;
+    height: 400px;
+}
+
+.dot-width{
+    width: 100%;
+    justify-content: center;
+}
+
+.dots{
+    margin-top: 120px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff;
+    margin-left: 5px;
+}
+
+.container{
+    padding-bottom: 30px;
+}
+
+.shop-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 50px;
+    margin-bottom: -10px;
+}
+
+.shop-content h1{
+    width: 84%;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #ff0000;
+    font-size: 30px;
+
+}
+
+.shop-content p{
+    width: 84%;
+    padding: 10px;
+    font-size: 15px;
+    color: #8a8a8a;
+}
+
+.touch{
+    justify-content: center;
+}
+
+
+.touch img{
+    width: 28%;
+}
+.products {
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+
+.products .prod-title{
+    width: 76%;
+}
+.space-around{
+    justify-content: center;
+    align-items: center;
+}
+.row-inner{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 20%;
+}
+
+.card img{
+    width: 100%;
+    transition: transform .2s;
+}
+.card img:hover{
+    transform: scale(1.2);
+}
+.card h6{
+    margin-top: 10px;
+    color: #8a8a8a;
+    font-size: 75%;
+}
+.card p{
+    margin-top: 10px;
+    font-size: 75%;
+    text-transform: uppercase;
+}
+.card span{
+    margin-top: 10px;
+    font-size: 70%;
+    color: #ff0000;
+}
+.card a{
+    text-decoration: none;
+    padding: 10px;
+}
+
+.card a button{
+    height: 40px;
+    width: 160px;
+    font-size: 80%;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.shopping-read-more{
+    text-decoration: none;
+    width: 120%;
+    padding: 10px;
+    border-radius: 7px;
+}
+
+.shopping-read-more button{
+    height: 30px;
+    width: 180px;
+    border: none;
+    border-radius: 9px;
+    font-size: 90%;
+    background-color: #bbbbbb;
+    color: #fff;
+}
+.about-miralou{
+    padding: 50px 0 0 50px;
+    margin-bottom: 50px;
+
+}
+.row-stretch{
+    display: flex;
+    justify-content: center;
+    align-content: stretch;
+}
+.about-image{
+    width: 30%;
+    height: 100%;
+}
+
+.about-content{
+    width: 30%;
+    height: 100%;
+    background-color: #eeeeee;
+}
+
+.about-content h1{
+    padding-top: 30px;
+    padding-left: 10px;
+    font-size: 23px;
+}
+
+.about-content p{
+    padding: 10px;
+    font-size: 16px;
+
+}
+
+.idea-title{
+    margin-top: 80px;
+    margin-bottom: -80px;
+}
+.idea-comment{
+    width: 50%;
+    background-color: #eeeeee;
+    padding: 15px;
+    border-radius: 2px;
+}
+.idea-comment .icon-left{
+    padding: 1px 4px;
+    font-size: 16px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border: 1px solid #000000;
+    border-radius: 70%;
+}
+.idea-comment p{
+    font-size: 70%;
+}
+.idea-comment .icon-right{
+    padding: 1px 4px;
+    font-size: 16px;
+    margin-top: 6%;
+    margin-bottom: 6%;
+    border: 1px solid #000000;
+    border-radius: 70%;
+}
+
+.dot1-width{
+    width: 100%;
+    justify-content: center;
+}
+
+.dots1{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #b4b3b3;
+    margin-left: 5px;
+}
+.dot-active{
+    background-color: red;
+}
+.latest-news{
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.col .content{
+    width: 61%;
+}
+
+.latest-more{
+    font-size: 80%;
+    text-decoration: none;
+    color: #000000;
+}
+
+.album-container{
+    
+    width: 80%;
+    background-color: red;
+    margin: 25px auto;
+    margin-top: 80px;
+}
+.album-row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    
+    
+}
+.thumbanil{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+    
+}
+.thumbanil img{
+    width: 14.5%;
+    height: 100%;
+    opacity: 0.5;
+    transition: transform .3s , opacity .3s;
+}
+.thumbanil img:hover{
+    transform: scale(1.2);
+    opacity: 1;
+}

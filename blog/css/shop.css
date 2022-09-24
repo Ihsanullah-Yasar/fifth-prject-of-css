@@ -1,0 +1,121 @@
+
+.hero-contain{
+    height: 50vh;
+}
+.hero{
+    background-image:  url(../../resources/css/img/pexels-ray-piedra-1478442.jpg);
+}
+
+.hero-content{
+    padding: 40px;
+}
+.hero-content p{
+    color: #fff;
+    font-size: 75%;
+}
+.hero-content h1{
+    color: #fff;
+    font-size: 150%;
+}
+.col{
+    width: 10%;
+}
+.col h3{
+    font-size: 60%;
+    margin-top: -10px;
+    color: #b3b3b3;
+}
+.col p{
+    font-size: 55%;
+    margin-top: -10px;
+    color: #b3b3b3;
+}
+
+.search{
+    border: none;
+    border-bottom: 1px solid gray;
+    background-color: #292929;
+    font-size: 75%;
+    padding: 10px;
+}
+
+.row-blog{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    justify-content: center;
+}
+
+.col-blog{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    
+}
+
+.col-blog img{
+    height: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+h5{
+    font-size: 70%;
+    
+}
+
+.col-blog p{
+    font-size: 70%;
+}
+.col-blog a{
+    font-size: 70%;
+    padding: 10px;
+}
+
+.col-blog a i{
+    font-size: 80%;
+}
+
+
+.circle{
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #a10000 !important;
+    margin-left: 5px;
+}
+
+.blog-space{
+    margin-top: 50px;
+}
+
+.show-more{
+    height: 40px;
+    width: 160px;
+    font-size: 80%;
+    border: none;
+    border-radius: 5px;
+    background-color: #a3a3a3;
+    color: rgb(2, 2, 2);
+}
+
+.pagenation{
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    
+    background-color: #d3d0d0;
+    color: #ff0404;
+    line-height: 10px;
+}
+
+/* .active{
+    background-color: red;
+    color: white;
+} */
+
+.back-arrow{
+    margin-top: 35px;
+}
+
+
