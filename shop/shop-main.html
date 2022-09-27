@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="../resources/vendors/css/ionicons.min.css">
     <link rel="stylesheet" href="../shared/shared.css">
     <link rel="stylesheet" href="css/shop.css">
+    <link rel="stylesheet" href="../quries.css">
 
     <title>Document</title>
 </head>
@@ -14,6 +15,8 @@
     <div>
         <nav>
             <div class="logo"><a href="../index.html">Miralou</a></div>
+            <button id="openNav" onclick="openNav()">&#9776;</button>
+            <button id="closeNav" onclick="closeNav()">&times;</button>
             <ul>
                 <li><a href="../index.html">home</a></li>
                 <li><a class="active" href="../shop/shop-main.html">shop <i class="ion-android-arrow-dropdown"></i></a></li>
@@ -184,7 +187,7 @@
     </section>
 
     <footer>
-        <div class="row-stretch">
+        <div class="row-stretch mobile-footer">
             <div class="content">
                 <h3>our newsseller</h3>
                 <p>subscribe to get more usefull information <br>
@@ -197,7 +200,7 @@
                 </form>
             </div>
         </div>
-        <div class="row">
+        <div class="row mobile-footer">
             <div class="cont">
                 <h2>miralou</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sed veritatis ea dignissimos, totam et fugiat illum  ut nam!</p>
@@ -231,6 +234,7 @@
             </div>
         </div>
     </footer>
+    <script src="../jscript.js"></script>
 </body>
 </html>
 

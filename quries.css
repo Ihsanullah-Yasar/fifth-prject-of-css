@@ -1,0 +1,395 @@
+@media only screen and (max-width: 768px ){
+    *{
+        font-size: 16px;
+    }
+    
+button{
+    padding: 7px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-size: 50%;
+}
+
+h1{
+    padding: 5px;
+    font-size: 125%;
+    text-transform: capitalize;
+}
+h2{
+    padding: 5px;
+    font-size: 100%;
+    text-transform: capitalize;
+}
+h3{
+    padding: 5px;
+    font-size: 75%;
+    text-transform: capitalize;
+}
+h5{
+    font-size: 50%;
+    padding: 10px;
+    text-transform: capitalize;
+}
+p{
+    padding: 5px;
+}
+
+nav{
+    display: flex;
+    padding: 8px;
+    flex-wrap: nowrap;
+    
+}
+#open-nav{
+    display: none;
+}
+#close-nav{
+    display: none;
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    padding: 5px;
+}
+
+nav ul li{
+    margin-left: 7.5px;
+}
+nav ul li a{
+    padding: 6px;
+    text-transform: capitalize;
+}
+
+.icons{
+    padding: 2px;
+}
+.icons i{
+    font-size: 120%;
+    margin-left: 5px;
+}
+
+.form-input{
+    width: 70%;
+    background-color: #1a1a1a;
+
+    font-size: 60%;
+}
+
+.form button{
+    padding: 10px;
+    font-size: 70%;
+}
+
+.search{
+    font-size: 60%;
+    padding: 6px;
+}
+
+}
+
+@media only screen and (max-width: 488px ){
+    *{
+        font-size: 16px;
+    }
+    
+button{
+    padding: 7px;
+    text-transform: capitalize;
+    letter-spacing: 0;
+    font-size: 50%;
+}
+
+h1{
+    padding: 5px;
+    font-size: 125%;
+    text-transform: capitalize;
+}
+h2{
+    padding: 5px;
+    font-size: 100%;
+    text-transform: capitalize;
+}
+h3{
+    padding: 5px;
+    font-size: 75%;
+    text-transform: capitalize;
+}
+h5{
+    font-size: 50%;
+    padding: 10px;
+    text-transform: capitalize;
+}
+p{
+    padding: 5px;
+}
+
+nav{
+    display: flex;
+    
+    justify-content: flex-start;
+    align-content: center;
+    padding: 16px;
+    
+}
+
+.logo{
+    
+    font-weight: 500;
+    letter-spacing: 1px;
+    
+}
+#openNav{
+    display: inline-block;
+    position: absolute;
+    border: none;
+    font-size: 150%;
+    background-color: #fff;
+    right: 4%;
+    top: 1%;
+}
+
+#closeNav{
+    position: absolute;
+    border: none;
+    font-size: 180%;
+    background-color: #fff;
+    right: 4%;
+    top: 1%;
+}
+
+
+nav{
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+    
+}
+
+nav ul{
+    display: none;
+    
+    padding: 10px;
+}
+nav ul li{
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    transition: background-color .2s , transform .2s;
+    
+}
+nav ul li:hover{
+    background-color: #eeeeee;
+    transform: scale(1.2);
+    
+}
+nav ul li a{
+    padding: 10px;
+    font-size: 100%;
+    text-transform: uppercase;
+    
+}
+nav ul li a:hover{
+    background-color: inherit;
+}
+
+nav ul li i{
+    display: none;
+}
+.icons{
+    display: none;
+    padding: 10px;
+}
+.icons i{
+    font-size: 150%;
+    margin-left: 10px;
+    transition: color .2s;
+}
+
+.icons i:hover{
+    color: red;
+}
+
+/* hero section  */
+.hero-contain{
+    height: 55vh;
+}
+.row-hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+}
+.hero-content{
+    color: #fff;
+    width: 50%;
+    
+}
+.hero-content h1{
+    padding: 6px;
+    font-size: 125%;
+}
+.hero-content p{
+    font-size: 14px;
+}
+
+
+.hero-content .button button:hover{
+    transform: scale(1.1);
+}
+
+.hero-image{
+    width: 45%;
+    height: 30%;
+}
+.hero-image img{
+    width: 90%;
+    
+}
+
+
+.dot-width{
+    width: 100%;
+    justify-content: center;
+    position: absolute;
+    bottom: 5%;
+    
+}
+
+/* hero section ended */
+
+/* shopping section */
+
+
+.shop-content h1{
+    font-size: 20px;
+
+}
+
+.shop-content p{
+    
+    font-size: 13px;
+    color: #8a8a8a;
+}
+
+.products .prod-title{
+    font-size: 100%;
+}
+
+/* about miralou section */
+
+.row-stretch{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.about-image{
+    width: 40%;
+}
+.about-image img{
+    width: 100%;
+    height: 100%;
+}
+
+.about-content{
+    width: 50%;
+    background-color: #eeeeee;
+}
+
+.about-content h1{
+    padding-top: 10px;
+    font-size: 100%;
+}
+
+.about-content p{
+    padding: 10px;
+    font-size: 13px;
+
+}
+
+.product-logo{
+    width: 20%;
+}
+
+
+.album-container{  
+    width: 90%;
+}
+
+
+/* shopping category section ended */
+
+/* footer  */
+
+.mobile-footer{
+    flex-direction: column;
+}
+footer{
+    margin-top: 80px;
+    padding: 20px 0;
+    background-color: #1a1a1a;
+    color: white;
+}
+
+footer .row-stretch .content{
+    width: 90%;
+    margin: 0 auto;
+}
+footer .form{
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 20px;
+}
+.form-input{
+    width: 100%;
+    background-color: #1a1a1a;
+    border: 1px solid red;
+    border-radius: 8px;
+    font-size: 70%;
+    padding: 10px;
+    color: #fff;
+}
+.form button{
+    background-color: red;
+    color: white;
+    padding: 8px;
+    font-size: 65%;
+}
+.row span{
+    font-size: 75%;
+    width: 33%;
+}
+.red{
+    color: red;
+}
+
+.row .cont{
+    width: 90%;
+    margin: auto;
+    padding-top: 20px;
+}
+.information{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+
+.form-input{
+    width: 70%;
+    background-color: #1a1a1a;
+
+    font-size: 60%;
+}
+
+.form button{
+    padding: 10px;
+    font-size: 70%;
+}
+
+.search{
+    font-size: 60%;
+    padding: 6px;
+}
+
+}

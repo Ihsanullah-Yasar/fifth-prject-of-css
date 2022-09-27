@@ -7,6 +7,8 @@
     <link rel="stylesheet" href="resources/vendors/css/ionicons.min.css">
     <link rel="stylesheet" href="shared/shared.css">
     <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="quries.css">
+    
 
     <title>Document</title>
 </head>
@@ -14,8 +16,11 @@
     <div>
         <nav>
             <div class="logo"><a href="index.html">Miralou</a></div>
+            
+            <button id="openNav" onclick="openNav()">&#9776;</button>
+            <button id="closeNav" onclick="closeNav()">&times;</button>
             <ul>
-                <li><a class="active" href="undex.html">home</a></li>
+                <li><a class="active" href="index.html">home</a></li>
                 <li><a href="shop/shop-main.html">shop <i class="ion-android-arrow-dropdown"></i></a></li>
                 <li><a href="shop/product.html">product <i class="ion-android-arrow-dropdown"></i></a></li>
                 <li><a href="blog/index.html">blog <i class="ion-android-arrow-dropdown"></i></a></li>
@@ -31,7 +36,7 @@
     <div class="hero-contain">
         
         <div class="hero">
-            <div class="row">
+            <div class="row-hero">
                 <div class="hero-content">
                     <h1>choose your<br>shoes with us.</h1>
                     <p>
@@ -43,7 +48,7 @@
                     
                 </div>
                 <div class="hero-image">
-                    
+                    <img src="resources/css/img/hero samplejpg.jpg" alt="">
                 </div>
                 
             </div>
@@ -56,7 +61,7 @@
         
     </div>
 
-    <section>
+    <section class="">
         <div class="container background-top">
             <div class="shop-content">
                 <h1>Shop by categories</h1>
@@ -98,7 +103,7 @@
                 <div class="card">
                     <img src="resources/css/img/sheo3.PNG" alt="sheos image">
                     <h6>jordan</h6>
-                    <p>AIR max 270</p>
+                    <p>AIR maxint 2700</p>
                     <span>120$</span>
                     <a href=""><button>view product</button></a>
                 </div>
@@ -130,14 +135,14 @@
                 <div class="card">
                     <img src="resources/css/img/sheo7.PNG" alt="sheos image">
                     <h6>jordan</h6>
-                    <p>chuck 70 canvas</p>
+                    <p>chuck canvas</p>
                     <span>120$</span>
                     <a href=""><button>view product</button></a>
                 </div>
                 <div class="card">
                     <img src="resources/css/img/sheo8.PNG" alt="sheos image">
                     <h6>jordan</h6>
-                    <p>AIR jordan 7 retro</p>
+                    <p>AIR jordan</p>
                     <span>120$</span>
                     <a href=""><button>view product</button></a>
                 </div>
@@ -149,19 +154,19 @@
     </section>
 
     <section class="about-miralou background-down">
-        <div class="row" >
-            <div class="row-stretch">
+        <div class="row-stretch" >
+            
                 <div class="about-image">
                     <img src="resources/css/img/about-miralou.PNG" alt="">
                 </div>
-                <div class="about-content ">
+                <div class="about-content">
                     <h1>About Miralou</h1>
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur voluptates voluptas suscipit tenetur eos in eaque molestias cupiditate vitae tempore iste facilis aliquid, iure obcaecati distinctio officia quidem. Illo, rem!
                     </p>
                     
                 </div>
-            </div>
+            
             
         </div>
         <div class="row idea-title">
@@ -170,10 +175,12 @@
         <div class="row">
             <div class="row-inner">
                 <div class="row idea-comment">
-                    <i class="ion-ios-arrow-back icon-left"></i>
+                    <a href=""><i class="ion-ios-arrow-back icon-left"></i></a>
+                    
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa maiores animi libero nobis nostrum eos iure numquam, totam nulla unde velit eveniet voluptates eligendi, assumenda, quasi tenetur et ut sunt.
                     </p>
-                    <i class="ion-ios-arrow-forward icon-right"></i>
+                    <a href=""><i class="ion-ios-arrow-forward icon-right"></i></a>
+                    
                 </div>
             </div>
                 
@@ -185,10 +192,10 @@
         </div>
         <div class="row">
             <div class="row-inner">
-                <img src="resources/css/img/nike.PNG" alt=" nike logo">
-                <img src="resources/css/img/addidas.PNG" alt="adiddas logo">
-                <img src="resources/css/img/jordan.PNG" alt="jordan logo">
-                <img src="resources/css/img/converse.PNG" alt="conserse logo">
+                <img class="product-logo" src="resources/css/img/nike.PNG" alt=" nike logo">
+                <img class="product-logo" src="resources/css/img/addidas.PNG" alt="adiddas logo">
+                <img class="product-logo" src="resources/css/img/jordan.PNG" alt="jordan logo">
+                <img class="product-logo" src="resources/css/img/converse.PNG" alt="conserse logo">
             </div>
         </div>
     </section>
@@ -258,21 +265,22 @@
 
     </section>
     
-    <footer>
-        <div class="row-stretch">
+    <footer >
+        <div class="row-stretch mobile-footer">
             <div class="content">
-                <h3>our newsseller</h3>
+                <h2>our newsseller</h2>
                 <p>subscribe to get more usefull information <br>
                 and to get you 15% discount of your next purchase.
                 </p>
             </div>
             <div class="form">
                 <form action="">
-                    <input class="form-input" type="email" placeholder="Enter your email"> <button>subscribe</button>
+                    <input class="form-input" type="email" placeholder="Enter your email">
+                    <button>subscribe</button>
                 </form>
             </div>
         </div>
-        <div class="row">
+        <div class="row mobile-footer">
             <div class="cont">
                 <h2>miralou</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque sed veritatis ea dignissimos, totam et fugiat illum  ut nam!</p>
@@ -306,6 +314,20 @@
             </div>
         </div>
     </footer>
-
+    <script>
+        function openNav() {
+            document.querySelector("nav ul").style.display="block";
+            document.getElementById("openNav").style.display = "none";
+            document.getElementById("closeNav").style.display = "inline-block";
+          
+        }
+        
+        function closeNav() {
+            document.querySelector("nav ul").style.display="none";
+            document.getElementById("openNav").style.display = "inline-block";
+            document.getElementById("closeNav").style.display = "none";
+            
+        }
+        </script>
 </body>
 </html>

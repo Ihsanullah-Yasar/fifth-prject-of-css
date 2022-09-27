@@ -9,28 +9,28 @@ html{
     font-weight: 400;
 
 }
+
 button{
-    font-size: 90%;
     letter-spacing: 1px;
     text-transform: capitalize;
     border: none;
-    font-size: 80%;
+    font-size: 70%;
     padding: 10px;
 }
 
 h1{
-    padding: 10px;
-    font-size: 150%;
-    letter-spacing: 1px;
-    word-spacing: 1px;
-    text-transform: uppercase;
-}
-h2{
-    padding: 10px;
+    padding: 6px;
     font-size: 125%;
     letter-spacing: 1px;
     word-spacing: 1px;
-    text-transform: uppercase;
+    text-transform: capitalize;
+}
+h2{
+    padding: 10px;
+    font-size: 100%;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    text-transform: capitalize;
 }
 h3{
     padding: 10px;
@@ -72,13 +72,26 @@ nav{
 .logo a{
     color: #000000;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 150%;
     transition: all .2s;
 }
 
 .logo a:hover{
     color: red;
 }
+
+#openNav{
+    display: none;
+}
+#closeNav{
+    display: none;
+}
+.nav-icon{
+    display: none;
+}
+
+
+
 nav ul{
     display: flex;
     justify-content: center;
@@ -92,7 +105,7 @@ nav ul li{
 nav ul li a{
     text-decoration: none;
     padding: 10px;
-    font-size: 15px;
+    font-size: 75%;
     color: #000000;
     border-radius: 5px;
     text-transform: uppercase;
@@ -113,7 +126,7 @@ nav ul li i{
     padding: 10px;
 }
 .icons i{
-    font-size: 30px;
+    font-size: 150%;
     margin-left: 10px;
     transition: color .2s;
 }
@@ -122,16 +135,14 @@ nav ul li i{
     color: red;
 }
 
-.hero-contain{
-    width: 100%;
-    height: 86vh;
-}
+
+
 .hero{
     background-size: cover;
     width: 100%;
     height: 100%;
     filter: grayscale(100);
-    filter:drop-shadow(100);
+
     overflow: hidden;
 }
 
@@ -224,9 +235,9 @@ nav ul li i{
 }
 
 .card a button{
-    height: 35px;
+
     width: 100%;
-    font-size: 75%;
+    font-size: 70%;
     border: none;
     border-radius: 5px;
     background-color: #000000;
@@ -275,18 +286,19 @@ footer .form{
     padding-top: 65px;
 }
 .form-input{
-    width: 80%;
+    width: 75%;
     background-color: #1a1a1a;
     border: 1px solid red;
     border-radius: 8px;
     font-size: 70%;
     padding: 10px;
+    color: #fff;
 }
 .form button{
     background-color: red;
     color: white;
-    padding: 10px;
-    font-size: 70%;
+    padding: 8px;
+    font-size: 65%;
 }
 .row span{
     font-size: 75%;
@@ -301,6 +313,7 @@ footer .form{
     padding-top: 30px;
 }
 .information{
-    width: 50%;
+    width: 45%;
+    overflow: hidden;
 }
 
