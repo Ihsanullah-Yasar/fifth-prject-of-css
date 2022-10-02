@@ -1,6 +1,6 @@
 
 .hero-contain{
-    
+    height: 50vh;
 }
 .hero{
     background-image:  url(../../resources/css/img/latest1.PNG);
